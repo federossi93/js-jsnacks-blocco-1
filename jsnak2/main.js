@@ -7,7 +7,7 @@ let parola2 = prompt('inserisci altra parola')
 //Il software stampa prima la parola più corta, poi la parola più lunga.
 
 
-if(parola1 < parola2){
+if(parola1.length < parola2.length){
     prompt(parola1 + ' ' + ' ' + parola2)
 }else{
     prompt(parola2 + ' ' + ' ' + parola1)
