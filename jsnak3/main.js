@@ -1,5 +1,5 @@
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
-/*let sum = 01
+let sum = 0
 
 for (let index = 0; index < 10; index++) {
     const useerNumber = Number(prompt('type a number'))
@@ -7,7 +7,7 @@ for (let index = 0; index < 10; index++) {
 }
 
 console.log(sum);
-//Il programma stampa la somma di tutti i numeri inseriti. */
+//Il programma stampa la somma di tutti i numeri inseriti. 
 
 
 let numero1 = Number(prompt('inserisci numero'))
