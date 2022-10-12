@@ -6,8 +6,10 @@ let numero2 = prompt('inserisci il secondo numero !')
 
 //Il software stampa il maggiore. 
 
+
+
 if(numero1 > numero2){
     prompt(numero1)
-}else if(numero2 > numero1){
+}else{
     prompt(numero2)
 }
