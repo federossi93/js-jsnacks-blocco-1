@@ -7,14 +7,16 @@ const partecipanti = ['luca','marco','gianni']
 
 
 let i = 0
+
 let nome = prompt('inserisci il tuo nome')
+
+let condizione = false
 
 while (i < partecipanti.length) {
     
     if (nome == partecipanti[i] ) {
         console.log('benvenuto');
-    }else{
-        console.log('nope');
+        condizione = true
     }
 
     i++
